@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id = "@+id/action_purchase"
+        android:enabled = "true"
+        android:icon="@drawable/order"
+        android:title="Purchase"
+        app:showAsAction = "ifRoom"
+        />
+    <item
+        android:id = "@+id/action_register"
+        android:enabled = "true"
+        android:icon="@drawable/edit"
+        android:title="Register"
+        app:showAsAction = "ifRoom"
+        />
+
+    <item
+        android:id = "@+id/action_checkout"
+        android:enabled = "true"
+        android:icon="@drawable/shopping"
+        android:title="CheckOut"
+        app:showAsAction = "ifRoom"
+        />
+    <item
+        android:id = "@+id/action_profile"
+        android:enabled = "true"
+        android:icon="@drawable/profile"
+        android:title="profile"
+        app:showAsAction = "never"/>
+    <item
+        android:id = "@+id/action_logout"
+        android:enabled = "true"
+        android:icon="@drawable/log"
+        android:title="LogOut"
+        app:showAsAction = "ifRoom"/>
+
+</menu>
